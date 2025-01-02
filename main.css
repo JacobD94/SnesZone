@@ -1,0 +1,232 @@
+/*
+        fonts
+*/
+p, h1, h2, h3, h4, h5, h6, body {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    color: #fff;
+}
+@font-face {
+    font-family: "Electrolize";
+    src: url("../fonts/Electrolize/Electrolize-Regular.ttf"), format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nunito Sans";
+    src: url("../fonts/Nunito_Sans/static/NunitoSans_10pt-Regular.ttf"), format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+    main header and navigation section
+*/
+#m-header {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    background-color: #3D005E;
+    /*box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);*/
+}
+#logoTitle {
+    width: 400px;
+    margin: 0px auto;
+}
+#logo {
+    width: 150px;
+    display: inline-block;
+}
+#siteTitle {
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    font-family: "Electrolize";
+    font-size: 36px;
+}
+#siteSlogan {
+    font-family: "Nunito Sans";
+    position: relative;
+    left: 25px;
+    font-size: 0.9em;
+}
+#mNav {
+
+}
+#mNav ul {
+    padding: 0px;
+    margin: 20px auto 0px auto;
+    text-align: center;
+    background-color: #4B474D;
+    border: 2px solid #000;
+    
+}
+#mNav li {
+    padding-left: 0px;
+    list-style: none;
+    display: inline-block;
+   
+}
+#mNav a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-family: "Electrolize";
+}
+#mNav a:hover {
+    background-color: #000;
+}
+/*
+    main content on the home page.
+*/
+body {
+    background-image: url("../images/background/sunset-8339205.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#mContent {
+    color: #fff;
+    font-family: "Nunito Sans";
+    width: 70%;
+    margin: 0px auto;
+    border-left: 2px #fff solid;
+    border-right: 2px #fff solid;
+    
+}
+#mContent h2, #mContent h3 {
+    padding: 20px 0px;
+    font-size: 1.75em;
+    text-shadow: 1px -1px 2px #333;
+}
+
+#mContent p {
+    padding: 10px;
+    width: 80%;
+    margin: 0px auto;
+    font-size: 1.2em;
+    line-height: 2em;
+    text-shadow: 2px -2px 2px #333;
+}
+.welcomeBgImg {
+    background-image: url("../images/home/snesWelcome.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.aweBgImg {
+    background-image: url("../images/home/pexels-lenzatic-9201281.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.dawBgImg {
+    background-image: url("../images/home/pexels-www-erzetich-com-2426085.jpg");
+}
+.emulationBgImg {
+    background-image: url("../images/home/pexels-mateusz-dach-99805-4502975.jpg");
+}
+.historyBgImg {
+    background-image: url("../images/history/IMG_8058-2048x1536.jpg.jpeg");
+}
+.developmentBgImg {
+    background-image: url("../images/history/EOBA8QUX4AIOc-j\ \(1\).jpeg");
+
+}
+.launchBgImg {
+    background-image: url("../images/history/maxresdefault.jpg");
+}
+.early90sBgImg {
+    background-image: url("../images/history/c3urgnug9yi21.jpg");
+}
+.fifthGenBgImg {
+    background-image: url("../images/history/2fm85qvhcue81.jpg");
+}
+.bgImgProps {
+    background-position: center;
+    background-size: cover;
+}
+.emulatorBgImg {
+    background-image: url("../images/emulation/build-pc-for-emulation_wallpaper_1\ \(1\).jpeg");
+}
+.superMarioWorld {
+    background-image: url("../images/emulation/122607515-0e8d4600-d051-11eb-900b-1b072f5bbbad.png");
+}
+.superMetroidBgImg {
+    background-image: url("../images/emulation/pj95b0211jl71.png");
+}
+.streetFighter2BgImg {
+    background-image: url("../images/emulation/Street-Fighter-II-FI-e1455394623152.jpg");
+}
+.transpBg {
+    padding: 150px 0px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+.emu-article ul {
+    text-align: left;
+}
+.emu-article li {
+    padding: 10px;
+    width: 80%;
+    margin: 0px auto;
+}
+.emuLogo {
+    width: 400px;
+    display: inline-block;
+    padding: 50px 0px;
+}
+.snesGame {
+    width: 350px;
+    border: #9B57BE 2px solid;
+    box-shadow: -3px -3px 5px #9B57BE;
+}
+.snesGame2 {
+    box-shadow: 2px 2px 5px #9B57BE;
+}
+.zeldaBgImg {
+    background-image: url("../images/emulation/The-Legend-of-Zelda-A-Link-to-the-Past-Screenshot-025.jpg");
+}
+.superMarioBgImg {
+    background-image: url("../images/emulation/Super_Mario_World_Screenshot.png");
+}
+.snesTier {
+    background-image: url("../images/emulation/snes-tier.png");
+}
+.chronoTriggerBgImg {
+    background-image: url("../images/emulation/Chrono_Trigger_screen.jpg");
+}
+.superMetroidBgImg {
+    background-image: url("../images/emulation/metroid3_13.gif");
+}
+.superMarioBros3BgImg {
+    background-image: url("../images/emulation/5433364574_82de53eeb6_b.jpg");
+}
+.button {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    background-color: #9B57BE;
+    border-radius: 5px;
+    border: 5px outset #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 2px -2px 4px rgba(255, 255, 255, 0.5);
+}
+#mFooter {
+    background-color: #000;
+    padding: 100px;
+    text-align: center;
+    font-family: "Electrolize";
+    border-top: 2px solid #fff;
+}
+@media (min-width: 200px) and (max-width: 1080px) {
+    #mContent {
+        width: 100%;
+        margin: 0px auto;
+    }
+}/*end media query*/
